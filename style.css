@@ -689,6 +689,16 @@ body {
           flex-direction: row;
 }
 
+.footer__text1 a {
+  color: #FFFFFF;
+  margin-right: 24px;
+}
+
+.footer__text1 a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .footer__text2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -697,6 +707,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.footer__text2 a {
+  color: #FFFFFF;
+  margin-right: 24px;
+}
+
+.footer__text2 a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer__copyright__text {
@@ -711,12 +733,16 @@ body {
   display: block;
 }
 
+.demo {
+  overflow: hidden;
+}
+
 .demo-logo {
   width: 105px;
 }
 
 .demo-home-page {
-  height: 100vh;
+  height: 50vh;
   margin-top: 25%;
 }
 
