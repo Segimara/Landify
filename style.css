@@ -252,6 +252,10 @@ body {
   margin-left: 32px;
 }
 
+.header__list-item img {
+  margin-left: 1px;
+}
+
 .header__download_link {
   display: -webkit-box;
   display: -ms-flexbox;

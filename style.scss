@@ -196,6 +196,9 @@ body {
 }
 .header__list-item {
   margin-left: 32px;
+  img {
+    margin-left: 1px;
+  }
 }
 .header__download_link {
   display: flex;
